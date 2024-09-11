@@ -46,5 +46,12 @@ public class TestFizzBuzzExecutor {
         //Assertion
         assertEquals("FizzBuzz", testValue);
     }
+    @Test
+    void testNumber(){
+        //act
+        var testValue = sut.execute(11);
+        //assertion
+        assertEquals("11", testValue);
+    }
 
 }
